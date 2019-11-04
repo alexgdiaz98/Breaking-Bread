@@ -77,7 +77,7 @@ def main(week):
             print(fill_line)
             email_file.write('Hi!\n\nHere is your assigned breaking bread partner for this week:\n\n')
             email_file.write('%s\n%s\n%s\n%s\n%s\n%s\n%s\n\n' % (fill_line, name_line, fill_line, address_line, fill_line, phone_line, fill_line))
-            email_file.write('If you wish to opt out of breaking bread (temporarily or permanently), or if you would like to participate for a single week at a time, contact Alex Diaz at alexgdiaz98@gmail.com or 770-356-5957.\n\n')
+            email_file.write('If you wish to opt out of breaking bread (temporarily or permanently), or if you would like to participate for a single week at a time, contact Alex Diaz at (redacted).\n\n')
             
 
 if __name__ == '__main__':
